@@ -1,3 +1,4 @@
+// Write a function that simply repeats the string a given number of times:
 const repeatString = function(string, num) {
     if (isNaN(num) || num < 0) return "ERROR";
     
