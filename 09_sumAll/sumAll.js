@@ -6,11 +6,9 @@ const sumAll = function(a, b) {
         return 'ERROR';
     }
 
-    if (b < a)
+    if (a > b)
     {
-        let swap = a;
-        a = b;
-        b = swap;
+        [a, b] = [b, a];
     }
 
     let sum = 0;
